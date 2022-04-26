@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*
+            # = id
+            . = class
+            > = children
+            : = pseudo-class
+            :: = pseudo-element
+        */
+        body{
+            font-family: sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+        }
+        .especial{
+            background-color: red;
+        }
+        .especial::after{
+            content: "*";
+            text-decoration: none;
+            font-weight: lighter;
+
+        }
+        .especial::before{
+            content: "*";
+            text-decoration: none;
+            font-weight: lighter;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=0mZ2OXT52fQ" target="_blank" class="especial">MAMACO</a></li>
+        <li><a href="https://www.youtube.com/watch?v=bA6ULyrgGj8&list=PL-WobvVrrRcIR6QMqMyz8SMFVL6XkVWAE&index=1" target="_blank">AJEITA A COLUNA</a></li>
+        <li><a href="https://www.youtube.com/watch?v=uNsyR8crNd8&list=PL-WobvVrrRcIR6QMqMyz8SMFVL6XkVWAE&index=6" target="_blank">MISCA MUSCA</a></li>
+    </ul>
+
+    
+</body>
+</html>
