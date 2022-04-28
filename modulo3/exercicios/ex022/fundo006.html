@@ -4,23 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
             height: 100vh;
+            /*  
+            
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
-            /*
+            background-attachment: fixed;
+                
                 contain = imagem 100% exibida.
                 cover = cobrir a tela inteira indpendente do tamanho da tela.
             */
+
+            /*shorthand background:
+            color > image > position > repeat > [size] > attachment*/
+            
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
         }
+
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid black;
@@ -31,7 +41,7 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum sunt corporis soluta magni harum odit maiores, quibusdam sint sit numquam accusantium quasi officia nisi libero dolore asperiores aliquam delectus repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quis veritatis aut magni impedit beatae optio dolores necessitatibus odit, ducimus sit nulla perferendis excepturi doloribus ea cumque laborum ad? Velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus architecto, eos quaerat consequuntur illo iusto ad cum recusandae nemo nisi odit sunt totam minima eius tempore, facilis minus. Sequi, illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus architecto, eos quaerat consequuntur illo iusto ad cum recusandae nemo nisi odit sunt totam minima eius tempore, facilis minus. Sequi, illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus architecto, eos quaerat consequuntur illo iusto ad cum recusandae nemo nisi odit sunt totam minima eius tempore, facilis minus. Sequi, illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus architecto, eos quaerat consequuntur illo iusto ad cum recusandae nemo nisi odit sunt totam minima eius tempore, facilis minus. Sequi, illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus architecto, eos quaerat consequuntur illo iusto ad cum recusandae nemo nisi odit sunt totam minima eius tempore, facilis minus. Sequi, illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus architecto, eos quaerat consequuntur illo iusto ad cum recusandae nemo nisi odit sunt totam minima eius tempore, facilis minus. Sequi, illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus architecto, eos quaerat consequuntur illo iusto ad cum recusandae nemo nisi odit sunt totam minima eius tempore, facilis minus. Sequi, illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus architecto, eos quaerat consequuntur illo iusto ad cum recusandae nemo nisi odit sunt totam minima eius tempore, facilis minus. Sequi, illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus architecto, eos quaerat consequuntur illo iusto ad cum recusandae nemo nisi odit sunt totam minima eius tempore, facilis minus. Sequi, illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus architecto, eos quaerat consequuntur illo iusto ad cum recusandae nemo nisi odit sunt totam minima eius tempore, facilis minus. Sequi, illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus architecto, eos quaerat consequuntur illo iusto ad cum recusandae nemo nisi odit sunt totam minima eius tempore, facilis minus. Sequi, illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus architecto, eos quaerat consequuntur illo iusto ad cum recusandae nemo nisi odit sunt totam minima eius tempore, facilis minus. Sequi, illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus architecto, eos quaerat consequuntur illo iusto ad cum recusandae nemo nisi odit sunt totam minima eius tempore, facilis minus. Sequi, illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus architecto, eos quaerat consequuntur illo iusto ad cum recusandae nemo nisi odit sunt totam minima eius tempore, facilis minus. Sequi, illum?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum sunt corporis soluta magni harum odit maiores, quibusdam sint sit numquam accusantium quasi officia nisi libero dolore asperiores aliquam delectus repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quis veritatis aut magni impedit beatae optio dolores necessitatibus odit, ducimus sit nulla perferendis excepturi doloribus ea cumque laborum ad? Velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus architecto, eos quaerat consequuntur illo iusto ad cum recusandae nemo nisi odit sunt totam minima eius tempore, facilis minus. Sequi, illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus architecto, eos quaerat consequuntur illo iusto ad cum recusandae nemo nisi odit sunt totam minima eius tempore, facilis minus. Sequi, illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus architecto, eos quaerat consequuntur illo iusto ad cum recusandae nemo nisi odit sunt totam minima eius tempore, facilis minus. Sequi, illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus architecto, eos quaerat consequuntur illo iusto ad cum recusandae nemo nisi odit sunt totam minima eius tempore, facilis minus. Sequi, illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus architecto, eos quaerat consequuntur illo iusto ad cum recusandae nemo nisi odit sunt totam minima eius tempore, facilis minus. Sequi, illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus architecto, eos quaerat consequuntur illo iusto ad cum recusandae nemo nisi odit sunt totam minima eius tempore, facilis minus. Sequi, illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus architecto, eos quaerat consequuntur illo iusto ad cum recusandae nemo nisi odit sunt totam minima eius tempore, facilis minus. Sequi, illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus architecto, eos quaerat consequuntur illo iusto ad cum recusandae nemo nisi odit sunt totam minima eius tempore, facilis minus. Sequi, illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus architecto, eos quaerat consequuntur illo iusto ad cum recusandae nemo nisi odit sunt totam minima eius tempore, facilis minus. Sequi, illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus architecto, eos quaerat consequuntur illo iusto ad cum recusandae nemo nisi odit sunt totam minima eius tempore, facilis minus. Sequi, illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus architecto, eos quaerat consequuntur illo iusto ad cum recusandae nemo nisi odit sunt totam minima eius tempore, facilis minus. Sequi, illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus architecto, eos quaerat consequuntur illo iusto ad cum recusandae nemo nisi odit sunt totam minima eius tempore, facilis minus. Sequi, illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus architecto, eos quaerat consequuntur illo iusto ad cum recusandae nemo nisi odit sunt totam minima eius tempore, facilis minus. Sequi, illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus architecto, eos quaerat consequuntur illo iusto ad cum recusandae nemo nisi odit sunt totam minima eius tempore, facilis minus. Sequi, illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, molestias asperiores? Omnis, ducimus fugit, dolorum, eaque corrupti ipsum dolore maxime officiis quo illo voluptatem odio? Architecto velit omnis quae at! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid officiis facilis repellat mollitia nesciunt necessitatibus, magni et facere officia sapiente, quidem illum reiciendis tempora impedit corrupti illo alias doloribus quaerat! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius officiis, veritatis eos fuga possimus saepe nam illum, debitis iure laborum, molestias tempore architecto quos nostrum aliquam eaque aut necessitatibus perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ut nesciunt vitae? Commodi, magnam ducimus. Perspiciatis animi quo, et beatae, labore fugiat dolor, doloremque ipsum commodi nobis sapiente. Ad, facere?</p>
     </main>
 </body>
 </html>
