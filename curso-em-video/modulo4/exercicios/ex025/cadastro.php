@@ -12,7 +12,10 @@ autocomplete = sugestão
 step = passo que um numero aumenta
 value = colocar um valor padrao na input
 pattern = padrão do input através de regex
-fieldset = tag para agrupar forms 
+fieldset = tag para agrupar forms
+para conseguir desmarcar o "radio" coloque o mesmo "name"
+checked = ja deixar marcado por padrão
+
 
 
 o que estudar?
