@@ -8,3 +8,5 @@ minlength e maxlength = limitar os caracteres
 size = tamanho da caixa
 placeholder = dica
 autocomplete = sugestão
+step = passo que um numero aumenta
+value = colocar um valor padrao na input
