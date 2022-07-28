@@ -2,19 +2,31 @@ Os dados foram enviados!
 Aprenda php para saber o que fazer com eles.
 
 CONTROLES DE FORMULÁRIOS
+FORM
 método get(padrão) ou post
+fieldset = tag para agrupar forms
+
+INPUT
 required = obrigatório
-minlength e maxlength = limitar os caracteres
-min e max = limitar o valor dos numeros
+value = colocar um valor padrao na input
 size = tamanho da caixa
 placeholder = dica
-autocomplete = sugestão
-step = passo que um numero aumenta
-value = colocar um valor padrao na input
 pattern = padrão do input através de regex
-fieldset = tag para agrupar forms
+autocomplete = sugestão
+
+INPUT:TEXT
+minlength e maxlength = limitar os caracteres
+
+INPUT:NUMBER
+min e max = limitar o valor dos numeros
+step = passo que um numero aumenta
+
+RADIO E CHECKBOX
 para conseguir desmarcar o "radio" coloque o mesmo "name"
 checked = ja deixar marcado por padrão
+
+RANGE
+min e max = controlar os passos do range
 
 
 
