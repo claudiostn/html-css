@@ -28,6 +28,8 @@ checked = ja deixar marcado por padrão
 RANGE
 min e max = controlar os passos do range
 
+SELECT
+selected = padrao do select
 
 
 o que estudar?
