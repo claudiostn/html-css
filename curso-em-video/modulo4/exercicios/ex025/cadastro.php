@@ -31,6 +31,12 @@ min e max = controlar os passos do range
 SELECT
 selected = padrao do select
 
+DATALIST
+
+TEXTAREA
+
+OUTPUT
+output n envia nada, so serve para mostrar coisas na tela
 
 o que estudar?
 regex expressoes regulares ^...$
